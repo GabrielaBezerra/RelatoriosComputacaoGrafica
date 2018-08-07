@@ -1,3 +1,0 @@
-/home/gabi/Desktop/CG/CMakeFiles/edit_cache.dir
-/home/gabi/Desktop/CG/CMakeFiles/rebuild_cache.dir
-/home/gabi/Desktop/CG/CMakeFiles/bin/Trabalho01.dir
