@@ -1,7 +1,8 @@
 
 
 OK - Ajuste de Gamma
-Falta Imagens no Relatorio - Composição de alpha
+
+READY - Composição de alpha
 
 TODO
 **** DRIVE ****

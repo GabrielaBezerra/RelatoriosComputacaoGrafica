@@ -1,4 +1,4 @@
-Relatório Aula CG 2018.2 IFCE
+﻿Relatório Aula CG 2018.2 IFCE
 Prática: Ajuste de Alpha - 13/08/2018
 Professor: Lucas Sousa.
 Alunos: Gabriela Bezerra, Ryllari Santana.
@@ -60,12 +60,25 @@ int main() {
 
 }
 
+- Resultados
 
-- Imagens Originais
 
-- Resultado
+Alpha 0.0
+
+
+
+Alpha 0.7
+
+
+Alpha 1.0
+
+
+Alpha 2.0
+
+
 
 - Conclusão
+
 O algoritmo consiste em uma multiplicação escalar das matrizes das imagens envolvidas aplicando a fórmula: 
 r = fore*(mask*alpha) + back*(1 - (mask*alpha))
-Primeiro, foi feita uma tentativa manual de multipliação das matrizes em loops aninhados, mas ela não funcionou muito bem, entao, estudando a documentação do opencv, foi tomada a decisão de usar a função convertTo para normalizar o data type de todas as matrizes, e a função multiply para realizar a multiplicação escalar. 
+Primeiro, foi feita uma tentativa manual de multipliação das matrizes em loops aninhados, mas ela não funcionou muito bem, entao, estudando a documentação do opencv, foi tomada a decisão de usar a função convertTo para normalizar o data type de todas as matrizes, e a função multiply para realizar a multiplicação escalar. O resultado foi como esperado: a multiplicacao de duas matrizes de acordo com o alpha inserido, com a subtração da área de valor 0 da mascara.
