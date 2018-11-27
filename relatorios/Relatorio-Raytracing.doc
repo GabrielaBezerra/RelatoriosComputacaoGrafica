@@ -1,0 +1,19 @@
+﻿Relatório Aula CG 2018.2 IFCE
+Prática: Raytracing.
+Professor: Lucas Sousa.
+Alunos: Gabriela Bezerra, David Magalhães.
+
+RayTracing
+
+Descrição: 
+
+...
+
+Código: https://github.com/GabrielaBezerra/RelatoriosComputacaoGrafica/tree/master/src     
+
+Resultados esperados:
+Uma esfera renderizada a partir de uma cena 3D construída programaticamente. Com um determinado tamanho, dependendo da posição do objeto observado, da distancia do ponto de visao, da origem e da direcao dos raios de visao. 
+Caso ortográfico: esfera sempre terá mesmo tamanho, independente da distancia em que está sendo observada. 
+Caso Oblíquo: quanto mais o ponto de visao estiver próximo à esfera, maior ela será na imagem renderizada. 
+
+Resultados obtidos:

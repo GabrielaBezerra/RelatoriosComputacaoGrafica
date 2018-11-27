@@ -1,24 +1,26 @@
-nx = 100;
-ny = 100;
+nx = 1000;
+ny = 1000;
 e = [0.3;0.3;0.3];
-d = 35/10;
-l = -10/10;
-r = 10/10;
-t = 10/10;
-b = -10/10;
+d = 35;#/10;
+l = -10;#/10;
+r = 10;#/10;
+t = 10;#/10;
+b = -10;#/10;
 m1 = zeros(nx, ny, 3);
 m2 = zeros(nx, ny, 3);
 obj = {};
 
 obj{1} = struct();
-obj{1}.centro = [30/10;30/10;30/10];
-obj{1}.raio = 10/10;
+#obj{1}.centro = [30/10;30/10;30/10];
+obj{1}.centro = [30;30;30];
+obj{1}.raio = 10;#/10;
 obj{1}.cor = [20, 10, 200];
 obj{1}.tipo = 'esfera';
 
 obj{2} = struct();
-obj{2}.centro = [30/10;30/10;25/10];
-obj{2}.raio = 4/10;
+#obj{2}.centro = [30/10;30/10;20/10];
+obj{2}.centro = [30;30;25];
+obj{2}.raio = 4;#/10;
 obj{2}.cor = [10, 200, 20];
 obj{2}.tipo = 'esfera2';
 
@@ -53,7 +55,8 @@ for i=1:nx
         
           %SHADING
           #posluz = [200/10;100/10;-60/10];
-          posluz = [20/10;80/10;80/10];
+          #posluz = [20/10;80/10;80/10];
+          posluz = [20;80;80];
           
           T1 = (-B + sqrt(delta))/A;
           T2 = (-B - sqrt(delta))/A;
@@ -106,7 +109,8 @@ for i=1:nx
         
           %SHADING
           #posluz = [200/10;100/10;-60/10];
-          posluz = [20/10;80/10;80/10];
+          #posluz = [20/10;80/10;80/10];
+          posluz = [20;80;80];
           
           T1 = (-B + sqrt(delta))/A;
           T2 = (-B - sqrt(delta))/A;
