@@ -4,3 +4,17 @@ CMakeCache.txt
 cmake_install.cmake
 CMakeLists.txt
 .vscode/
+
+bin                
+cmake_install.cmake       
+imgs          
+CG-Relatorios.zip  
+CMakeLists.txt            
+Makefile      
+CMakeCache.txt     
+coisas_para_entregar.txt  
+octave-files
+CMakeFiles         
+docs                      
+README.md
+.EstudandoC++
